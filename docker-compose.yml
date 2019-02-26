@@ -41,7 +41,7 @@ services:
 
   postgres:
     restart: unless-stopped
-    image: postgres:9.5
+    image: postgres:10-alpine
     volumes:
       - sentry-postgres:/var/lib/postgresql/data
 
